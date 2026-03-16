@@ -7,8 +7,9 @@
       "android": {
         "buildType": "apk"
       },
-      "node": "20.18.0",
+      "node": "20.15.0",
       "env": {
+        "YARN_IGNORE_ENGINES": "true",
         "YARN_FROZEN_LOCKFILE": "false"
       }
     },
